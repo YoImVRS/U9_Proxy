@@ -1,0 +1,16 @@
+{
+    "name": "U9 Proxy",
+    "version": "1.0.0",
+    "description": "Minecraft Free Proxy Version of U9 Proxy",
+    "main": "src/proxy/proxy.js",
+    "scripts": {
+      "start": "node src/proxy/proxy.js"
+    },
+    "author": "ottersec",
+    "license": "MIT",
+    "dependencies": {
+      "discord.js": "^13.1.0",
+      "http-proxy": "^1.18.1"
+    }
+  }
+  
