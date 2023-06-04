@@ -30,7 +30,7 @@ By default, the proxy server will listen on port 8080. You can adjust the port n
 
 ### Setting up the Discord Bot
 
-To set up the Discord bot, you need to create a Discord bot and obtain its token. Replace the placeholder `'TOKEN_DEL_BOT'` in `discordBot.js` with your bot's token. Additionally, replace `'ID_DEL_CANAL'` with the ID of the channel where you want to log the attacks.
+To set up the Discord bot, you need to create a Discord bot and obtain its token. Replace the placeholder `'BOT_TOKEN'` in `discordBot.js` with your bot's token. Additionally, replace `'CHANNEL_LOGS_ID'` with the ID of the channel where you want to log the attacks.
 
 ```javascript
 const botToken = 'BOT_TOKEN';
